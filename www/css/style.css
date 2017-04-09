@@ -1,0 +1,31 @@
+﻿body
+{
+}
+
+#splashScreen{
+    background-color:aquamarine;
+}
+#forwardbtn{
+    display:block;
+    width:100px;
+    position:fixed;
+    bottom:10px;
+    left:50%;
+    right:50%;
+}
+
+.menubutton{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aliceblue !important;
+}
+.backbutton{
+    width:50px;
+    display: block !important;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+
+

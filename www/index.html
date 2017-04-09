@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+    
+    <script src="cordova.js"></script>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <!--<script src="js/screen.js"></script>-->
+    <script src="js/options.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div data-role="page" id="menu">
+        <!-- Main menu page-->
+        <a href="#newgame" data-transition="flip" class="ui-btn ui-corner-all menubutton">Nowa Gra</a>
+        <a href="#" data-transition="flip" class="ui-btn ui-corner-all menubutton">Zasady Gry</a>
+        <a href="#options" data-transition="pop" class="ui-btn ui-corner-all menubutton">Opcje</a>
+        <a href="#" data-transition="flip" class="ui-btn ui-corner-all menubutton">Najlepsze Wyniki</a>
+    </div>
+
+    <div data-role="page" id="newgame">
+        <!-- Game page-->
+        <div data-role="main" class="ui-content">
+            
+            
+
+        </div>
+    </div>
+    <div data-role="page" id="options">
+        <!-- Options page-->
+        
+        <div data-role="header">
+            <h1>Opcje</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            <h1>Poziom trudności</h1>
+            <button id="easy" class="ui-btn">Łatwy</button>
+            <button id="normal" class="ui-btn">Normalny</button>
+            <button id="hard" class="ui-btn">Trudny</button>
+            <p id="screen"></p>
+        </div>
+        <div data-role="footer">
+            <a href="#menu" data-transition="flip" class="ui-btn ui-icon-back ui-btn-icon-left ui-corner-all backbutton">MENU</a>
+            
+        </div>
+    </div>
+</body>
+</html>
